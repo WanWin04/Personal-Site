@@ -1,8 +1,8 @@
 import React from "react";
-import "./NavBar.css";
+import "./Nav.css";
 
-const NavBar = () => {
+const Nav = () => {
   return <div>NavBar</div>;
 };
 
-export default NavBar;
+export default Nav;
