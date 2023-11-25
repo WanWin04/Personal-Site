@@ -1,11 +1,13 @@
 import React from "react";
 import "./About.css";
 import ME from "../../assets/me-about.jpg";
-import { LiaAwardSolid } from "react-icons/lia";
+import { AiOutlineAntDesign } from "react-icons/ai";
 import { FiUsers } from "react-icons/fi";
 import { IoFolderOpenOutline } from "react-icons/io5";
 
-const About = () => {
+interface AboutProps {}
+
+const About: React.FC<AboutProps> = () => {
   return (
     <section id="About">
       <h2>About Me</h2>
@@ -20,7 +22,7 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
-              <LiaAwardSolid className="about_icon" />
+              <AiOutlineAntDesign className="about_icon" />
               <h5>Experience</h5>
               <small>... Years Working</small>
             </article>

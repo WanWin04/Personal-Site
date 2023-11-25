@@ -2,7 +2,7 @@ import React from "react";
 import "./Services.css";
 import { FaCheck } from "react-icons/fa";
 
-const Services = () => {
+const Services: React.FC = () => {
   return (
     <section id="Services">
       <h2>Services</h2>
@@ -68,7 +68,7 @@ const Services = () => {
 
         <article className="services">
           <div className="services_head">
-            <h3>BE Design</h3>
+            <h3>AI Design</h3>
           </div>
 
           <ul className="services_list">

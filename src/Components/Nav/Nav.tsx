@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Nav.css";
 import { GoHome } from "react-icons/go";
 import { CiUser } from "react-icons/ci";
 import { AiOutlineMessage } from "react-icons/ai";
 import { GrServices } from "react-icons/gr";
-import { useState } from "react";
 
-const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+const Nav: React.FC = () => {
+  const [activeNav, setActiveNav] = useState<string>("#");
+
   return (
     <nav>
       <a

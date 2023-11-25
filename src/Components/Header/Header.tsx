@@ -1,10 +1,12 @@
 import React from "react";
 import "./Header.css";
-import CTA from"./CTA";
+import CTA from "./CTA";
 import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 
-const Header = () => {
+interface HeaderProps {}
+
+const Header: React.FC<HeaderProps> = () => {
   return (
     <header>
       <div className="container header_container">
@@ -18,7 +20,9 @@ const Header = () => {
           <img src={ME} alt="me" />
         </div>
 
-        <a href="#Contact" className="scroll_down">Scroll Down</a>
+        <a href="#Contact" className="scroll_down">
+          Scroll Down
+        </a>
       </div>
     </header>
   );
