@@ -10,16 +10,32 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}>
+      <a
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <GoHome />
       </a>
-      <a href="#About" onClick={() => setActiveNav("#About")} className={activeNav === "#About" ? "active" : ""}>
+      <a
+        href="#About"
+        onClick={() => setActiveNav("#About")}
+        className={activeNav === "#About" ? "active" : ""}
+      >
         <CiUser />
       </a>
-      <a href="#Services" onClick={() => setActiveNav("#Services")} className={activeNav === "#Services" ? "active" : ""}>
+      <a
+        href="#Services"
+        onClick={() => setActiveNav("#Services")}
+        className={activeNav === "#Services" ? "active" : ""}
+      >
         <GrServices />
       </a>
-      <a href="#Contact" onClick={() => setActiveNav("#Contact")} className={activeNav === "#Contact" ? "active" : ""}>
+      <a
+        href="#Contact"
+        onClick={() => setActiveNav("#Contact")}
+        className={activeNav === "#Contact" ? "active" : ""}
+      >
         <AiOutlineMessage />
       </a>
     </nav>
