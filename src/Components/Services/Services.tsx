@@ -2,7 +2,6 @@ import React from "react";
 import "./Services.css";
 import { FaCheck } from "react-icons/fa";
 
-
 const Services = () => {
   return (
     <section id="Services">
@@ -15,27 +14,25 @@ const Services = () => {
           </div>
 
           <ul className="services_list">
-
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
 
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
 
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
 
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
-
           </ul>
         </article>
         {/* END OF UI/UX */}
@@ -46,27 +43,25 @@ const Services = () => {
           </div>
 
           <ul className="services_list">
-
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
 
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
 
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
 
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
-
           </ul>
         </article>
         {/* END OF BE */}
@@ -77,33 +72,29 @@ const Services = () => {
           </div>
 
           <ul className="services_list">
-
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
 
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
 
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
 
             <li>
-            <FaCheck className="services_list-icon" />
-            <p>YEARSYEARSYEARSYEARS</p>
+              <FaCheck className="services_list-icon" />
+              <p>YEARSYEARSYEARSYEARS</p>
             </li>
-
           </ul>
         </article>
         {/* END OF AI */}
-
       </div>
-
     </section>
   );
 };
