@@ -30,13 +30,13 @@ const Footer: React.FC<FooterProps> = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://www.facebook.com/profile.php?id=100047907622203">
+        <a href="https://www.facebook.com/profile.php?id=100047907622203" className="brands">
           <FaFacebook />
         </a>
-        <a href="https://www.instagram.com/quangthang_26/">
+        <a href="https://www.instagram.com/quangthang_26/" className="brands">
           <FaInstagram />
         </a>
-        <a href="https://github.com/WanWin04">
+        <a href="https://github.com/WanWin04" className="brands">
           <FaGithub />
         </a>
       </div>
