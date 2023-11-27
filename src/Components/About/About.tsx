@@ -20,7 +20,7 @@ const About: React.FC<AboutProps> = () => {
         </div>
 
         <div className="about_content">
-          <div className="about_cards">
+          {/* <div className="about_cards">
             <article className="about_card">
               <AiOutlineAntDesign className="about_icon" />
               <h5>Experience</h5>
@@ -29,7 +29,7 @@ const About: React.FC<AboutProps> = () => {
 
             <article className="about_card">
               <FiUsers className="about_icon" />
-              <h5>Clients</h5>
+              <h5>Algorithm</h5>
               <small>... Years Working</small>
             </article>
 
@@ -38,14 +38,34 @@ const About: React.FC<AboutProps> = () => {
               <h5>Projects</h5>
               <small>... Years Working</small>
             </article>
-          </div>
+          </div> */}
 
           <p>
-            ... Years Working... Years Working... Years Working... Years Working
+            Hello! I'm Duong Quang Thang and I currently a sophomore at the VNUHCM - University of
+            Science.
           </p>
 
-          <a href="#Contact" className="btn btn-primary">
-            Talk
+          <section className="bio">
+            <h3>
+              Bio
+            </h3>
+            <div className="bio_item">
+              <span>2019</span>
+              <span>
+                Started high school at the Tran Hung Dao High School for the Gifted - Binh Thuan.
+              </span>
+            </div>
+            <div className="bio_item">
+              <span>2022</span>
+              <span>
+                Started Bachelor&apos;s degree in Information Technology (High Quality Program) at the VNUHCM
+                - University of Science.
+              </span>
+            </div>
+          </section>
+
+          <a href="#Portfolio" className="btn btn-primary">
+            My Portfolio
           </a>
         </div>
       </div>

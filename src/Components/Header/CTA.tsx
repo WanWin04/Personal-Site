@@ -8,7 +8,7 @@ const CTA: React.FC = () => {
         Download CV
       </a>
       <a href="#Contact" className="btn btn-primary">
-        Talk
+        Contact Me
       </a>
     </div>
   );

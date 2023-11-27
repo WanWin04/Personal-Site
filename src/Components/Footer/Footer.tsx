@@ -42,7 +42,7 @@ const Footer: React.FC<FooterProps> = () => {
       </div>
 
       <div className="footer_conpyright">
-        <small>&copy; @Quang Thang</small>
+        <small>&copy; @Quang Thang.  All rights reserved</small>
       </div>
     </footer>
   );

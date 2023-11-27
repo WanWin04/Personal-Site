@@ -10,9 +10,9 @@ const Header: React.FC<HeaderProps> = () => {
   return (
     <header>
       <div className="container header_container">
-        <h5>Hello I'm</h5>
-        <h1>Duong Quang Thang</h1>
-        <h5 className="text-light">Student</h5>
+        <h5 className="text-light">Hello I'm</h5>
+        <h1 className="text-light">Duong Quang Thang</h1>
+        <h5 className="text-light">Student of VNUHCM - University of Science</h5>
         <CTA />
         <HeaderSocials />
 

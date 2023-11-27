@@ -10,7 +10,7 @@ const Services: React.FC = () => {
       <div className="container services_container">
         <article className="services">
           <div className="services_head">
-            <h3>UI/UX Design</h3>
+            <h3>Experience</h3>
           </div>
 
           <ul className="services_list">
@@ -39,7 +39,7 @@ const Services: React.FC = () => {
 
         <article className="services">
           <div className="services_head">
-            <h3>BE Design</h3>
+            <h3>Algorithm</h3>
           </div>
 
           <ul className="services_list">
@@ -68,7 +68,7 @@ const Services: React.FC = () => {
 
         <article className="services">
           <div className="services_head">
-            <h3>AI Design</h3>
+            <h3>Projects</h3>
           </div>
 
           <ul className="services_list">

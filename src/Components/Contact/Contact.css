@@ -6,6 +6,7 @@
 }
 
 .contact_options {
+  color: aliceblue;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -21,10 +22,9 @@
 }
 
 .contact_option:hover {
-  background: transparent;
+  background: rgb(205, 53, 79);
   border: none;
-  color: rgb(205, 53, 79);
-  background: var(--color-white);
+  color: whitesmoke;
 }
 
 .contact_option-icon {
@@ -33,6 +33,7 @@
 }
 
 .contact_option a {
+  color: aliceblue;
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
