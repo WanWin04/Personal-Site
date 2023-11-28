@@ -74,7 +74,7 @@ const Services: React.FC = () => {
 
             <li>
               <FaCheck className="services_list-icon" />
-              <p>ReactJS/React Native</p>
+              <p>ReactJS</p>
             </li>
 
             <li>
@@ -99,6 +99,11 @@ const Services: React.FC = () => {
             <li>
               <FaCheck className="services_list-icon" />
               <p>Leetcode</p>
+            </li>
+
+            <li>
+              <FaCheck className="services_list-icon" />
+              <p>HackerRank</p>
             </li>
           </ul>
         </article>
